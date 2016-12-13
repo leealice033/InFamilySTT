@@ -1,0 +1,2 @@
+# InFamilySTT
+使用工研院STTWebService搭配InFamily製作語音助理
