@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:fitsSystemWindows="true"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layoutFunctionMenu"
+        android:visibility="invisible"
+        android:background="#4ca1fd">
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Get Widgets"
+            android:id="@+id/button"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:onClick="gotoWidgetList"
+            android:textSize="12dp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/button_config" />
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="20px"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Device Statistics"
+            android:id="@+id/button3"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:onClick="gotoStatisticsList"
+            android:textSize="12dp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/button_config" />
+    </LinearLayout>
+</LinearLayout>

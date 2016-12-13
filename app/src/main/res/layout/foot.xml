@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layoutFoot"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/black"
+        android:alpha="0.5"
+        android:visibility="visible">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Processing..."
+            android:id="@+id/textView"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+</RelativeLayout>
